@@ -70,3 +70,25 @@ else  {
     alert ('обратитесь в техподдержку ')
 
 }
+//Task 8
+let year = +prompt('Видите год рождения','');
+let age = 2019 - year;
+if ( age >= 16) {
+    alert('Добро пожалывать');
+} else {
+    alert('«вход воспрещен».');
+}
+//Task  9 
+let experience = +prompt('вводит стаж работы:');
+if (experience >= 0 && experience < 3) {
+    alert('надбавка  0% ');
+} else if (experience >= 3 && experience < 10) {
+    alert('надбавка 10%');
+} else if (experience >= 10 && experience < 20) {
+    alert('надбавка  20%');
+} else if (experience >= 20) {
+    alert('надбавка 25%');
+}else {
+    alert('обратитесь в техподдержку');
+}
+//  все что успел  (((
